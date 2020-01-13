@@ -11,8 +11,11 @@ class ArticlesController extends AppController
 
 		//$this->viewBuilder()->autoLayout(false);		
 
-		$this->set('title', 'hello');
-		$this->set('mess', '123');
+		$values = [
+			'title' => 'hello',
+			'mess' => 'メッセージテスト',
+		];
+		$this->set($values);
 
 	}
 
