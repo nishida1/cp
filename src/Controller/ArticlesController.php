@@ -5,11 +5,15 @@ use App\Controller\AppController;
 
 class ArticlesController extends AppController
 {
-	public $autoRender = false;
-
+	
 	public function index()
 	{
-		echo "test";
+
+		//$this->viewBuilder()->autoLayout(false);		
+
+		$this->set('title', 'hello');
+		$this->set('mess', '123');
+
 	}
 
 }
