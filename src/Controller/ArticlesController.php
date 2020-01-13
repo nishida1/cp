@@ -17,6 +17,9 @@ class ArticlesController extends AppController
 		];
 		$this->set($values);
 
+		$data = $this->Articles->find('all');
+        $this->set('data', $data);
+
 	}
 
 }
