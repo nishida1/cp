@@ -13,7 +13,7 @@ class ArticlesController extends AppController
 
 		$values = [
 			'title' => 'hello',
-			'mess' => 'メッセージテスト',
+			'mess' => 'sample',
 		];
 		$this->set($values);
 
