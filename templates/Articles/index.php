@@ -63,9 +63,11 @@
         <h1 class="display-4"><?=$title ?></h1>
         <p><?=$mess ?>
         </p>
-        <!-- 
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-        -->
+
+        <p><a class="btn btn-secondary" 
+        href="<?=$this->Url->build(['controller'=>'Articles', 'action'=>'add']); ?>" 
+        role="button">Add &raquo;</a></p>
+
       </div>
     </div>
 
